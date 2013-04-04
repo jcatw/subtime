@@ -1,0 +1,18 @@
+* Subtime
+  Subtime adds/subtracts an offset to/from a given .srt-formatted subtitle file.
+
+** Dependencies
+   Python.  Tested on 2.7.  Nothing too fancy here; should work with all versions >= 2.3.
+
+** Usage
+   ./subtime.py input.srt [-]hh:mm:ss,mss output.srt
+
+** Notes
+   The offset parser is pretty pedantic about the offset form.  It
+   must be exactly one of:
+   
+   hh:mm:ss,mss OR -hh:mm:ss,mss
+
+** Author
+   James Atwood
+   jatwood@cs.umass.edu
