@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Add (or subtract) an offset to a .srt-formatted subtitle file
+# Add or subtracts an offset from a .srt-formatted subtitle file
 #  arg1: input file name
 #  arg2: offset of form hh:mm:ss,mss or -hh:mm:ss,mss
 #  arg3: output file
