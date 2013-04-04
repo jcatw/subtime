@@ -1,5 +1,5 @@
 * Subtime
-  Subtime adds/subtracts an offset to/from a given .srt-formatted subtitle file.
+  Subtime adds or subtracts an offset from a .srt-formatted subtitle file.
 
 ** Dependencies
    Python.  Tested on 2.7.  Nothing too fancy here; should work with all versions >= 2.3.
